@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/chat'; // Flask backend URL
+const API_URL = 'http://35.200.145.103:8000/api/chat'; // Flask backend URL
 
 export const chatService = {
   sendMessage: async (message) => {
